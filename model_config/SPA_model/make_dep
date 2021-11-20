@@ -1,0 +1,19 @@
+carbon_model.o:		global_variables.o canopy_optimisation_functions.o global_variables.o global_variables.o carbon_model.f90
+canopy.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o leaf.o light.o soil_functions.o global_variables.o log_tools.o carbon_model.o carbon_model_crop.o global_variables.o math_tools.o canopy.f90
+canopy_optimisation_functions.o:		global_variables.o leaf.o light.o global_variables.o global_variables.o global_variables.o soil_air.o global_variables.o canopy_optimisation_functions.f90
+config_tools.o:		global_variables.o log_tools.o config_tools.f90
+carbon_model_crop.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o carbon_model_crop.f90
+global_variables.o:		_leap_years       = .false. global_variables.f90
+leaf.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o math_tools.o spa_io.o log_tools.o leaf.f90
+light.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o math_tools.o spa_io.o log_tools.o global_variables.o light.f90
+linked_lists.o:		log_tools.o linked_lists.f90
+log_tools.o:		log_tools.f90
+main.o:		canopy.o global_variables.o global_variables.o global_variables.o soil_air.o log_tools.o spa_io.o main.f90
+math_tools.o:		global_variables.o log_tools.o math_tools.f90
+soil_air.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o math_tools.o global_variables.o log_tools.o soil_air.f90
+soil_functions.o:		global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o math_tools.o soil_air.o spa_io.o log_tools.o global_variables.o soil_functions.f90
+spa_cmd_line.o:		global_variables.o log_tools.o spa_cmd_line.f90
+spa_config.o:		global_variables.o config_tools.o global_variables.o global_variables.o log_tools.o carbon_model_crop.o global_variables.o global_variables.o global_variables.o global_variables.o spa_config.f90
+spa_initialise.o:		carbon_model_crop.o global_variables.o global_variables.o global_variables.o global_variables.o soil_air.o global_variables.o global_variables.o global_variables.o spa_initialise.f90
+spa_io.o:		global_variables.o log_tools.o spa_io_csv.o config_tools.o spa_cmd_line.o spa_config.o spa_initialise.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o math_tools.o global_variables.o global_variables.o global_variables.o linked_lists.o spa_io.f90
+spa_io_csv.o:		global_variables.o global_variables.o global_variables.o log_tools.o carbon_model_crop.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o global_variables.o spa_io_csv.f90

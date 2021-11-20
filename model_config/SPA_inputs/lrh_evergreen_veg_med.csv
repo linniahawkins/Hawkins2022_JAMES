@@ -1,0 +1,27 @@
+lafrac,0.16667,0.16667,0.16667,0.16667,0.16667,0.16667,0,0,0,0,0,0,0,0,0
+lafrac_dead,0,0,0,0,0,0,0,0,0,0
+nfrac,0.1,0.25,0.25,0.25,0.1,0.05,0,0,0,0,0,0,0,0,0
+layer_height,18,15.9,15.1,14.2,13.3,11.8,9,5,4,3,2,0,0,0,0
+c3,1,1,1,1,1,1,1,1,1,1,,,,,,,,
+avN,2.1,,,average foliar N (g N m-2 leaf area),,,,,,
+LCA,114.0,,,Leaf C per leaf area (g C m-2 leaf area),,,,,,,,,,,,,,
+gplant,20,,,"stem conductivity (or conductance if CONDUCTIVITY=0, see below)",,,,,,
+minlwp,-2,,,minimum leaf water potential,,,,,,
+iWUE,0.0007,,,intrinsic water use efficiency threshold,,,,1.0007,,
+WUE,700.0,,WUE threshold,,,
+cond_slope,2.35,,Medlyn/BB slope parameter,,,
+cond_slope_b,2.8,,Medlyn/BB slope parameter sensitivity to LWP,,,
+cond_slope_c,3.7,,Medlyn/BB slope parameter sensitivity to LWP,,,
+capac,2500,,,leaf capacitance,,,,,,
+leaf_length,0.002,0.045,,,,"characteristic dimension of leaf (i.e. ~width of leaf, m)",,,,,,
+cone_width,0.045,,
+rootresist,25,,,root resistivity,,,,,,
+tower_height,33,,,height of tower with sensors,,,,,,
+conductivity,1,,,Is tree conductivity defined (=1) is is tree conductance defined (=0)?,,,,,,
+kappac,16.86,,,Rate coefficient for Vcmax,,,,,,
+kappaj,45.37,,,,Rate coefficient for Jmax,,,,,,
+max_depth,1.1,,,Maximum root depth (m),,,,,,,,,
+root_k,70,,,Root biomass to reach 50% of max depth (g m-2),,,,,,,,,
+swp_params,-0.04,1.6,0.096,0.0184,,,,,,,,,,,
+through_fall,0.7,,,fraction of precip that penetrates canopy
+max_storage,1,,,water retained by canopy (mm)
